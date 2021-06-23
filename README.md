@@ -3,7 +3,7 @@
 Just a simple showcase how to *publish a kotlin multiplatform mobile library* to github packages.multiplatform
 
 ## usage
-to use the package inside your application, just add the github owner and repository to your repository list.multiplatform
+To use the package inside your application, just add the github repository to your repository list.
 
 > Add the credentials section if the repository isn't public
 
@@ -21,5 +21,9 @@ allprojects {
             }
         }
     }
+}
+
+dependencies {
+    implementation("com.example.mysharedlib:shared:0.1.1")
 }
 ```
