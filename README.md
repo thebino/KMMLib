@@ -14,7 +14,7 @@ allprojects {
         mavenCentral()
         maven {
             name = "Github Packages"
-            url = uri("https://maven.pkg.github.com/thebino/MySharedLib")
+            url = uri("https://maven.pkg.github.com/thebino/KMMLib")
             credentials {
                 username = GITHUB_USER
                 password = GITHUB_TOKEN
@@ -23,4 +23,3 @@ allprojects {
     }
 }
 ```
-

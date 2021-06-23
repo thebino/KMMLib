@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "com.example.mysharedlib"
-version = "0.2.0"
+version = "0.1.0"
 
 val GITHUB_USER: String by project
 val GITHUB_TOKEN: String by project
@@ -59,7 +59,7 @@ kotlin {
 publishing {
     repositories {
         maven {
-            setUrl("https://maven.pkg.github.com/thebino/MySharedLib")
+            setUrl("https://maven.pkg.github.com/thebino/KMMLib")
             credentials {
                 username = GITHUB_USER
                 password = GITHUB_TOKEN
